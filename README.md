@@ -24,7 +24,6 @@ Where
 | params     | additional connection parameters with a uri query syntax |
 | oauth      | the oauth token to use                                   |
 | revision   | the revision of the repository to use                    |
-```
 
 The `login`, `password` and `oauth` token will also be loaded as defaults from the `~/.github` property file if it exists.
 If a `login` has been provided in the uri, the `login` in the configuration file must match.
